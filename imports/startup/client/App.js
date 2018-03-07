@@ -1,9 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
+import Header from "../../ui/Header";
 
 export const App=()=>{
-    return (<p className="pClass">this is a paragraph</p>)
+    // return (<p className="pClass">this is a paragraph</p>)
+    return (<div><Header/><p className="pClass">this is a paragraph</p></div>)
+    
 }
 
 //argument that is function is passed to meteor 
